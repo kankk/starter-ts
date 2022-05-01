@@ -1,0 +1,30 @@
+{
+  "name": "[name]",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kankk/[name].git"
+  },
+  "author": "kankk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kankk[name]/issues"
+  },
+  "homepage": "https://github.com/kankk/[name]#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
+  }
+}
