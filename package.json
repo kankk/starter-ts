@@ -1,10 +1,12 @@
 {
-  "name": "[name]",
+  "name": "name",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js",
+    "p": "npm version patch && git push --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/kankk/[name]#readme",
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "@rollup/plugin-typescript": "^8.3.2",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
@@ -25,6 +29,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
+    "rollup": "^2.71.1",
     "typescript": "^4.6.4"
   }
 }
